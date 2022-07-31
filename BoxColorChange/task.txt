@@ -1,0 +1,18 @@
+
+
+Components - 
+Combo box - search & filter the list 
+slider 
+List 
+edit field 
+button 
+text area / text field
+calender 
+Color picker 
+
+Add a text or shape 
+edit the height & width 
+change the opacity 
+apply color 
+add image as background 
+

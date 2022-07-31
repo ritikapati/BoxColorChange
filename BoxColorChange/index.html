@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>box color change</title>
+        <link href="mystyle.css" rel="stylesheet">
+    </head>
+    <BODY>
+        <button onclick= "changeColor()">Change Color!!</button>
+        <div id="divchangeMe"></div>
+        <button onclick= "reset()">Reset!!</button>
+        <button onclick="red()">RED</button>
+        <button onclick="blue()">BLUE</button>
+        <button onclick="pink()">PINK</button>
+
+        <script>
+            var box = document.getElementById("divchangeMe");
+            var button1 = document.querySelector("button");
+            var button2 = document.querySelector("button");
+
+            function changeColor(){
+                //box.style.backgroundColor='blue';  
+                if(box.style.backgroundColor=='red')
+                {
+                box.style.backgroundColor='blue';
+                }
+                else{
+                    box.style.backgroundColor='pink';
+                }   
+            }
+            function reset() {
+                if(box.style.backgroundColor=='blue')
+                {
+                box.style.backgroundColor='red';
+                }
+                else{
+                    box.style.backgroundColor='pink';
+                }
+            } 
+            function red() {
+                box.style.backgroundColor='red';
+            } 
+            function blue() {
+                box.style.backgroundColor='blue';
+            } 
+            function pink() {
+                box.style.backgroundColor='pink';
+            } 
+            
+        </script>
+    </BODY>
+</html>
